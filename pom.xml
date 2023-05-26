@@ -12,7 +12,7 @@
 		<repository>
 			<id> github</id>
 			<name> githubactionsdemo></name>
-			<url> https://github.com/dharmakolla/githubactionsdemo</url>
+			<url> https://s3.console.aws.amazon.com/s3/buckets/dharmatejagithubactionsbucket?region=us-west-2</url>
 		</repository>
 	</distributionManagement>
 	<groupId>com.example</groupId>
