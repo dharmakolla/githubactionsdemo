@@ -10,7 +10,7 @@
 	</parent>
 	<distributionManagement>
 		<repository>
-			<id> githubactionsdemo</id>
+			<id> github</id>
 			<name> githubactionsdemo></name>
 			<url> https://github.com/dharmakolla/githubactionsdemo</url>
 		</repository>
