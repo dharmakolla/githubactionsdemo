@@ -31,8 +31,8 @@ jobs:
     - name: Setup AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        OKTA_CLIENT_ID: ${{secrets.OKTA_CLIENT_ID}}
-        OKTA_SECRET_ID: ${{secrets.OKTA_SECRET_ID}}
+        AWS-ACCESS-KEY-ID: ${{secrets.OKTA_CLIENT_ID}}
+        AWS-SECRET-ACCESS-KEY: ${{secrets.OKTA_SECRET_ID}}
         aws-region: 'us-east-1'
         
     - name: Execute AWS command
